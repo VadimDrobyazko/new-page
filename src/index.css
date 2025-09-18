@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  font-family: "Archivo", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --c-black: #303030;
+  --c-grey-1: #F3F4F6;
+  --c-grey-2: #E6E8EC;
+  --c-grey-3: #2626268C;
+  --c-white-1: #F4F6F7;
+  --c-white-2: #EFEFF2;
+  --c-white-3: #FBFBFC;
+  --font-konnect: 'Konnect', sans-serif;
+  --font-gilroy: 'Gilroy', sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: red;
+}
+
+#root {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+  background-color: var(--c-white-2);
+}
+
+.app-wrap {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+
