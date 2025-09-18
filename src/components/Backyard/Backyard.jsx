@@ -7,6 +7,11 @@ const Backyard = ({ video }) => {
       <video
         src={video.videoSrc}
         autoPlay
+        autoPlay
+        muted
+        playsInline
+        loop
+        controls={false}
         className="w-[179px] h-[179px] md:w-[245px] md:h-[245px] lg:w-[179px] lg:h-[179px] lg:mb-[-24px]"
       />
 
